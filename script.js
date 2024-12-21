@@ -2,10 +2,23 @@ const instructions = [
     "Follow the car in front for 15 minutes.",
     "Take the next left turn.",
     "Drive straight for 10 km.",
-    "Stop at the next gas station.",
+    "Buy snacks at the next servo",
     "Turn around and head back for 5 minutes.",
-    "Drive until you see a coffee shop, then stop.",
-    "Follow the signs to the nearest town."
+    "Turn at the next road that starts with the same letter as the artist on the radio.",
+    "Take the next right",
+    "Turn at the next major intersection. Less than half a tank = left, otherwise right.",
+    "Look at the time, the last digit for minutes, skip that many radio stations",
+    "5 times the number of tissues/rubbish on the floor - drive that many minutes",
+    "Do a U turn when you see the next major fast food outlet",
+    "Follow a white car for 10 minutes",
+    "Follow the road for 15 minutes",
+    "You have 10 minutes to find the slowest speed limit",
+    "Drive straight for 10 km.",
+    "After seeing 2 motorbikes, turn around",
+    "Wildcard - drivers choice for 10 minutes",
+    "Wildcard - passengers choice for 10 minutes",
+    "Wildcard - back seat passengers choice for 10 minutes"
+
 ];
 
 const instructionElement = document.getElementById('instruction');
