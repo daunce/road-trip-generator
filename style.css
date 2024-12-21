@@ -29,13 +29,19 @@ button:hover {
     background-color: #0056b3;
 }
 
+.large-text {
+    font-size: 24px; /* Adjust to the desired size */
+    font-weight: bold; /* Optional: Make the text bold */
+    margin: 20px 0; /* Add space above and below */
+}
+
 .small-link {
-    font-size: 10px; /* Makes the link text small */
-    color: #555; /* Optional: A lighter color for subtlety */
-    text-decoration: none; /* Removes the underline */
+    font-size: 10px;
+    color: #555;
+    text-decoration: none;
 }
 
 .small-link:hover {
-    text-decoration: underline; /* Optional: Add an underline when hovered */
-    color: #007BFF; /* Optional: Highlight color on hover */
+    text-decoration: underline;
+    color: #007BFF;
 }
